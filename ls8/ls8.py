@@ -3,9 +3,10 @@
 """Main."""
 
 import sys
-from cpu import *
+from cpu import CPU
 
-cpu = CPU()
+CPU = CPU()
 
-cpu.load()
-cpu.run()
+CPU.load()
+CPU.run()
+
